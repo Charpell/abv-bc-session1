@@ -2,7 +2,7 @@
 
 module.exports.aritGeo = function(arr){
 
-	let initiaLCommonDiff = arr[1] - arr[0]
+	let initiaLCommonDiff = arr[1] - arr[0];
 	let finalCommonDiff = arr[arr.length-1] - arr[arr.length-2];
 	let initialCommonRatio = arr[1] / arr[0];
 	let finalCommonRatio = arr[arr.length-1] / arr[arr.length-2];
