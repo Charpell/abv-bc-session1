@@ -3,7 +3,8 @@
 module.exports.findMinMax = function(arr){
 
    let min = arr[0];
-  let max = arr[0];
+   let max = arr[0];
+   //let first = arr[0]
  
   
   
@@ -11,15 +12,22 @@ module.exports.findMinMax = function(arr){
 
   	//Get Minimum Number
     if (arr[i] < min){
-      min = arr[i];
+      min = arr[i]; 
     }
 
   	//Get Minimum Number
-    if (arr[i] > max){
+    else if (arr[i] > max){
       max = arr[i];
-    }
+    } 
+
+    // // Check for Uniformity
+    // else if(arr[i] === first){
+    // 	first = arr[i]
+
+    // }
        
   }
   return [min, max];
+    }
+    
   
-}
