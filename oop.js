@@ -2,8 +2,6 @@
 // This OOP is modeled for real-time Phone Manufacturers to keep cost of phones and production output.
 
 function Phone(name,color,memory,dimension,operatingSystem){
-
-		//creating the object properties
 	this.name = name;
 	this.color = color;
 	this.memory = memory;
